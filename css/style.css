@@ -35,5 +35,25 @@ section img {
     height: 20em;
     width: 25em;
     padding-top: 1em;
-    display: flex;
+}
+
+
+
+.featured {
+    display: block;
+    text-align: center;
+    height: 30em;
+}
+
+.background {
+    background-image: url("../images/space.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 20em;
+}
+
+.background h2 {
+    padding-top: 3em;
+    color: whitesmoke;
+    font-size: 3em;
 }
