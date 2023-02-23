@@ -1,26 +1,41 @@
 * {
     margin: 0px;
+    font-family: Roboto;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 100px;
-    margin-right: 100px;
-}
 
 header {
     width: 100%;
     margin-bottom: 1em;
     display: inline-flex;
     justify-content: space-between;
+    align-items: center;
     margin-right: 0px;
     margin-left: 0px;
     border: solid 1px yellow;
 }
 
+header img {
+    height: 200px;
+    border-radius: 50%;
+}
+
 h1 {
     font-size: 4em;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
 }
 
 ul {
@@ -34,22 +49,221 @@ li {
     padding: 1em;
 }
 
-.featured {
-    border: solid rgb(10, 121, 14) 1px;
-}
-.featured img{
-    max-width:100%;
+.container-1 div,
+.container-2 div,
+.container-3 div,
+.container-4 div,
+.container-5 div,
+.main-quote div {
+    border: solid 1px black;
+} 
+
+.main-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
 
-.row1 {
-    border: solid 1px purple;
-    width: 100%;
+.placeholder-1 {
+    flex: 1
+}
+.placeholder-2 {
+    flex: 1
+}
+.main-quote p {
+    font-style: italic;
 }
 
-.row1 img{
-    max-width: 49%;
-    max-height: 500px;
+.container-1 {
+    display: flex;
+    margin: 20px 0 80px 0;
 }
+
+
+.box-1 {
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+    margin-right: 20px;
+    border-right: solid 5px blue;
+}
+
+.box-2 {
+    flex: 2;
+}
+
+.box-3 {
+    flex: .5;
+}
+
+.container-2 {
+    display: flex;
+}
+
+.container-2-box-1 {
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+    margin-right: 20px;
+    border-right: solid 5px blue;
+}
+
+.container-2-box-2 {
+    flex: 2;
+    height: 400px;
+    background-image: url("../images/space.jpg");
+}
+
+.container-2-box-2 h3 {
+    position: relative;
+    top: 170px;
+}
+
+.container-2-box-3 {
+    flex: .5;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container-3-box-1 {
+    flex: 1;
+    border-right: solid 5px blue;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+
+.container-3-box-2 {
+    flex: 1;
+    height: 270px;
+}
+
+.container-3-box-3 {
+    flex: 1;
+    height: 270px;
+}
+
+.container-3-box-4 {
+    flex: .5;
+}
+
+.container-3-box-2 h3 {
+    margin-right: 8px;
+    margin-top: 20px;
+    border: 1px solid yellow;
+    text-align: center;
+    background-image: url("../images/space.jpg");
+    height: 248px;
+    line-height: 250px;
+}
+
+.container-3-box-3 h3 {
+    border: 1px solid rgb(47, 203, 33);
+    text-align: center;
+    margin-left: 8px;
+    margin-top: 20px;
+    background-image: url("../images/space.jpg");
+    height: 248px;
+    line-height: 250px;
+}
+
+
+
+.container-4 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.container-4-box-1 {
+    flex: 1;
+    border-right: solid 5px blue;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+
+.container-4-box-2 {
+    flex: 1;
+    height: 270px;
+}
+
+.container-4-box-3 {
+    flex: 1;
+    height: 270px;
+}
+
+.container-4-box-4 {
+    flex: .5;
+}
+
+.container-4-box-2 h3 {
+    margin-right: 8px;
+    margin-top: 20px;
+    border: 1px solid yellow;
+    text-align: center;
+    background-image: url("../images/space.jpg");
+    height: 248px;
+    line-height: 250px;
+}
+
+.container-4-box-3 h3 {
+    border: 1px solid rgb(47, 203, 33);
+    text-align: center;
+    margin-left: 8px;
+    margin-top: 20px;
+    background-image: url("../images/space.jpg");
+    height: 248px;
+    line-height: 250px;
+}
+
+.container-5 {
+    display: flex;
+    height: 100px;
+    margin-bottom: 60px;
+}
+
+.container-5-box-1 {
+    flex: 1.5;
+    text-align: right;
+    padding-right: 11px;
+    margin-right: 20px;
+    border-right: solid 5px blue;
+}
+
+.container-5-box-2 {
+    flex: 1;
+}
+
+.container-5-box-3 {
+    flex: 1;
+}
+
+.container-5-box-4 {
+    flex: 1;
+}
+
+.container-5-box-5 {
+    flex: .75;
+}
+
+.container-5 h3 {
+    color: rgb(65, 74, 205);
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a h3:hover {
+    color: rgb(106, 215, 108);
+}
+
+/* Media Queries Start */
 
 @media screen and (max-width: 1200px) {
     header {
@@ -61,43 +275,25 @@ li {
     li {
         font-size: medium;
     }
+}
 
-    main {
+
+@media screen and (max-width: 550px) {
+    header {
         flex-direction: column;
-        margin: 1em;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        padding-left: 0;
     }
 
-    @media screen and (max-width: 550px) {
-        header {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-left: 0;
-            padding-left: 0;
-        }
-    
-        h1 {
-            font-size: 2em;
-        }
-        li {
-            font-size: medium;
-        
-        }
-    
-        main {
-            flex-direction: column;
-            margin: 1em;
-        }
-
-        .row1 {
-            flex-direction: column;
-        }
-        .row1 img{
-            width: 100%;
-          height: 100%;
-        }
-        .featured img{
-            height: 100%;
-        }
+    h1 {
+        font-size: 2em;
     }
+
+    li {
+        font-size: medium;
+
+    }
+
 }
