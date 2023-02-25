@@ -8,7 +8,7 @@
 
 body {
     background: rgb(3, 167, 186);
-    background: linear-gradient(90deg, rgba(3, 167, 186, .3) 0%, rgba(80, 237, 217, .4) 50%, rgba(0, 212, 255, .2) 100%);
+    background: linear-gradient(90deg, rgba(44, 243, 77, 0.3) 0%, rgba(80, 237, 217, .4) 50%, rgba(0, 212, 255, .2) 100%);
 }
 
 /* Header Section */
@@ -33,10 +33,12 @@ header img {
 
 h1 {
     font-size: 4em;
+    text-shadow: 1px 2px 4px rgba(15, 235, 216, 0.548)
 }
 
 h2 {
     font-size: 50px;
+    text-shadow: 1px 0px 1px rgba(15, 235, 216, 0.548);
 }
 
 h3 {
@@ -57,6 +59,7 @@ li {
     display: inline-flex;
     font-size: 1.6em;
     padding: 1em;
+    text-shadow: 1px 2px 4px rgba(15, 235, 216, 0.548);
 }
 
 a {
@@ -281,7 +284,8 @@ a {
     text-decoration: none;
 }
 
-a h3:hover {
+a h3:hover,
+li a:hover {
     color: rgb(106, 215, 108);
 }
 
